@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0.0</VersionPrefix>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>SE347.L11_HelloWork.Application</AssemblyName>
+    <PackageId>SE347.L11_HelloWork.Application</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>SE347.L11_HelloWork</RootNamespace>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>E:\_Folders\Github\CloneRepo\5.8.1\aspnet-core\Backup\src\SE347.L11_HelloWork.Application\</UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\group4\Group4.SE347.L11_HelloWork.Application\Group4.SE347.L11_HelloWork.Application.csproj" />
+    
+    <ProjectReference Include="..\group10\Group10.SE347.L11_HelloWork.Application\Group10.SE347.L11_HelloWork.Application.csproj" />
+    <ProjectReference Include="..\group5\Group5.SE347.L11_HelloWork.Application\Group5.SE347.L11_HelloWork.Application.csproj" />
+    <ProjectReference Include="..\group3\Group3.SE347.L11_HelloWork.Application\Group3.SE347.L11_HelloWork.Application.csproj" />
+    <ProjectReference Include="..\group1\Group1.SE347.L11_HelloWork.Application\Group1.SE347.L11_HelloWork.Application.csproj" />
+    <ProjectReference Include="..\group7\Group7.SE347.L11_HelloWork.Application\Group7.SE347.L11_HelloWork.Application.csproj" />
+    <ProjectReference Include="..\group8\Group8.SE347.L11_HelloWork.Application\Group8.SE347.L11_HelloWork.Application.csproj" />
+    <ProjectReference Include="..\SE347.L11_HelloWork.Core\SE347.L11_HelloWork.Core.csproj" />
+    <ProjectReference Include="..\group12\Group12.SE347.L11_HelloWork.Application\Group12.SE347.L11_HelloWork.Application.csproj" />
+    <ProjectReference Include="..\group6\Group6.SE347.L11_HelloWork.Application\Group6.SE347.L11_HelloWork.Application.csproj" />
+    <ProjectReference Include="..\group9\Group9.SE347.L11_HelloWork.Application\Group9.SE347.L11_HelloWork.Application.csproj" />
+  </ItemGroup>
+</Project>

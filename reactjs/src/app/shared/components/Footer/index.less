@@ -1,0 +1,36 @@
+.footer {
+    position: sticky;
+    left: 0;
+    margin-top: 16px;
+    bottom: 64px;
+    width: 100%;
+    text-align: center;
+ }
+ 
+ .block-head:before {
+    bottom: -3px;
+    left: 25px;
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.block-head {
+    padding-bottom: 12px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.block-head:after, .block-head:before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    background-color: #f6cc25;
+}
+
+.block-head:after {
+    bottom: -1px;
+    left: -1px;
+    width: 90px;
+    height: 1px;
+}

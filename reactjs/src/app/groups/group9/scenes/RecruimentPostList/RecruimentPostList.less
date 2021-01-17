@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+
+.Buttons_Layout {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Simple_White_Button {
+  box-sizing: border-box;
+  width: fit-content;
+  height: 25px;
+  vertical-align: auto;
+  text-align: center;
+  border-radius: 5px;
+  background: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #363636;
+  border: #c4c4c4 1px solid;
+  user-select: none;
+  min-width: 80px;
+}
+
+.Simple_White_Button:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.Simple_White_Button:active {
+  background: #c4c4c4;
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.Simple_White_Button:disabled {
+  background: #c4c4c4;
+  color: white;
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.Simple_Red_Button {
+  box-sizing: border-box;
+  width: fit-content;
+  height: 24px;
+  vertical-align: auto;
+  text-align: center;
+  border-radius: 5px;
+  background: #fe3a3a;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  border: #ffffff;
+  user-select: none;
+  min-width: 80px;
+}
+
+.Simple_Red_Button:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.Simple_Red_Button:active {
+  background: #c4c4c4;
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.Simple_Red_Button:disabled {
+  background: #c4c4c4;
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.Simple_Blue_Button {
+  box-sizing: border-box;
+  width: fit-content;
+  height: 24px;
+  vertical-align: auto;
+  text-align: center;
+  border-radius: 5px;
+  background: #5279db;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  border: #ffffff;
+  user-select: none;
+  min-width: 80px;
+}
+
+.Simple_Blue_Button:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.Simple_Blue_Button:active {
+  background: #c4c4c4;
+  cursor: pointer;
+}
+
+.Simple_Blue_Button:disabled {
+  background: #c4c4c4;
+  cursor: pointer;
+}
+
+.Is_Form_Button {
+  margin: auto;
+  margin-top: 1.2rem;
+}
+
+//header title
+section.recruitment-title-header {
+  font-size: 16pt;
+  margin-left: 7%;
+}
+//header filter
+button.Simple_blue_button {
+  border: none;
+  background: #518ff5;
+  color: white;
+  width: 100px;
+  height: 42px;
+  border-radius: 8px;
+  position: relative;
+  top: 40%;
+}
+.filter-recruitment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recruitment__list-col1,
+.recruitment__list-col2 {
+  display: flex;
+}
+.recruitment__item {
+  width: 250px;
+  margin: 10px;
+}
+
+input[type='text'],
+select {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.ant-select-selection.ant-select-selection--single {
+  width: 235px;
+
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.recruitment__item label {
+  font-weight: 700;
+}
+//table
+
+table,
+th,
+td {
+  border-bottom: 1px solid #ccc;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+.result_recruitment {
+  padding: 0 75px;
+}
+
+//button
+.Red_Button {
+  background: #f83d34;
+  margin-left: 10px;
+  padding: 0px 20px;
+  border: none;
+  color: white;
+  height: 40px;
+  border-radius: 8px;
+}
+.Blue_Button {
+  margin-left: 10px;
+  padding: 0px 20px;
+  border: none;
+  background: #518ff5;
+  color: white;
+  height: 40px;
+  border-radius: 8px;
+}
+
+section.box-buttons_layout {
+  margin: 20px 0px;
+  margin-left: 50%;
+}
+//pagination
+.pagination_recruitment {
+  display: inline-block;
+}
+
+.pagination_recruitment a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination_recruitment {
+  margin: 20px 0px;
+  margin-left: 70%;
+}
+//
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 1179px) {
+  .recruitment__item {
+    width: 168px;
+    margin: 10px;
+  }
+  .pagination_recruitment {
+    margin: 20px 0px;
+    margin-left: 61%;
+  }
+  section.box-buttons_layout {
+    margin: 20px 0px;
+    margin-left: 33%;
+  }
+
+  button.Simple_blue_button {
+    width: 85px;
+    height: 39px;
+  }
+  .Blue_Button,
+  .Red_Button {
+    margin-left: 8px;
+    padding: 0px 15px;
+    height: 39px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment__list-col1,
+  .recruitment__list-col2 {
+    display: inline;
+  }
+  .recruitment__item {
+    width: 370px;
+    margin: 10px;
+  }
+  section.recruitment-title-header {
+    margin-top: 7%;
+  }
+  .result_recruitment {
+    padding: 0;
+  }
+  .pagination_recruitment {
+    margin-left: 32%;
+  }
+  .Blue_Button,
+  .Red_Button {
+    margin-left: 8px;
+    padding: 0px 8px;
+    height: 39px;
+  }
+
+  section.box-buttons_layout {
+    margin: 20px 0px;
+    margin-left: 0px;
+  }
+  button.Simple_blue_button {
+    margin-left: 3%;
+  }
+}

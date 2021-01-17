@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\DemoService1\**" />
+    <EmbeddedResource Remove="Services\DemoService1\**" />
+    <None Remove="Services\DemoService1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Xpo" Version="19.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SE347.L11_HelloWork.Core\SE347.L11_HelloWork.Core.csproj" />
+  </ItemGroup>
+
+</Project>

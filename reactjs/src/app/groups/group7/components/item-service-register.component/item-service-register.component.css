@@ -1,0 +1,19 @@
+.item__price {
+    margin: 1rem 0 0 0;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.item__price li {
+    margin-left: 64px;
+    cursor: pointer;
+}
+
+.item__price li:hover {
+    color: #518FF5;
+}
+
+.active {
+    color: #518FF5;
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+
+    hellowork_be:
+        image: abp/be
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Production
+        ports:
+            - "8081:21021"
+    hellowork_fe:
+        image: abp/fe
+        ports:
+            - "4201:80"

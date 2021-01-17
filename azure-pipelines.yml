@@ -1,0 +1,28 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+pool:
+  vmImage: 'ubuntu-latest'
+
+jobs:
+- job: aspnet
+  timeoutInMinutes: 10
+  # pool:
+  #   vmImage: 'ubuntu-latest'
+  steps:
+  - script: dotnet restore aspnet-core/src/SE347.L11_HelloWork.Web.Host
+    displayName: 'dotnet restore'
+  - script: dotnet build aspnet-core/src/SE347.L11_HelloWork.Web.Host
+    displayName: 'dotnet build'
+
+- job: reactjs
+  timeoutInMinutes: 10
+  # pool:
+  #   vmImage: 'ubuntu-latest'
+  steps:
+  - script: npm install
+    workingDirectory: reactjs
+    displayName: 'npm install'
+  - script: npm run build
+    workingDirectory: reactjs
+    displayName: 'npm build'
+

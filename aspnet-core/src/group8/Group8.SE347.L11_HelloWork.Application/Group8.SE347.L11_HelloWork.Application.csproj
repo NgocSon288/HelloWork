@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services2\**" />
+    <EmbeddedResource Remove="Services2\**" />
+    <None Remove="Services2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SE347.L11_HelloWork.Core\SE347.L11_HelloWork.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+﻿namespace SE347.L11_HelloWork.Authorization.Accounts.Dto
+{
+    public enum TenantAvailabilityState
+    {
+        Available = 1,
+        InActive,
+        NotFound
+    }
+}

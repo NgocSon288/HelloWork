@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp" Version="5.14.0" />
+    <PackageReference Include="Abp.AspNetCore" Version="5.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Group9.SE347.L11_HelloWork.Application\Group9.SE347.L11_HelloWork.Application.csproj" />
+  </ItemGroup>
+
+</Project>

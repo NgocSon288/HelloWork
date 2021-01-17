@@ -1,0 +1,131 @@
+<Row gutter={[16, 24]}>
+                        <Col className="gutter-row" span={6}>
+                            <img 
+                            height = '200px'
+                            src="https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/124436263_3433841093507980_3360060161014174120_n.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=rpOb870rIEAAX9hw_t8&_nc_ht=scontent.fsgn8-1.fna&oh=7380b90e743feec96ed1fa0866e8dd27&oe=5FD01DE7"> 
+                            </img>
+
+                        </Col>
+                        <Col className="gutter-row" span={6}>
+                             <img 
+                            height = '200px'
+                            src="https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/124436263_3433841093507980_3360060161014174120_n.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=rpOb870rIEAAX9hw_t8&_nc_ht=scontent.fsgn8-1.fna&oh=7380b90e743feec96ed1fa0866e8dd27&oe=5FD01DE7"> 
+                            </img> 
+                        </Col>
+                        <Col className="gutter-row" span={6}>
+                             <img 
+                            height = '200px'
+                            src="https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/124436263_3433841093507980_3360060161014174120_n.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=rpOb870rIEAAX9hw_t8&_nc_ht=scontent.fsgn8-1.fna&oh=7380b90e743feec96ed1fa0866e8dd27&oe=5FD01DE7"> 
+                            </img>
+                        </Col>
+                        <Col className="gutter-row" span={6}>
+                             <img 
+                            height = '200px'
+                            src="https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/124436263_3433841093507980_3360060161014174120_n.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=rpOb870rIEAAX9hw_t8&_nc_ht=scontent.fsgn8-1.fna&oh=7380b90e743feec96ed1fa0866e8dd27&oe=5FD01DE7"> 
+                            </img>
+                        </Col>
+                        <Col className="gutter-row" span={6}>
+                             <img 
+                            height = '200px'
+                            src="https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/124436263_3433841093507980_3360060161014174120_n.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=rpOb870rIEAAX9hw_t8&_nc_ht=scontent.fsgn8-1.fna&oh=7380b90e743feec96ed1fa0866e8dd27&oe=5FD01DE7"> 
+                            </img>
+                        </Col>
+                        <Col className="gutter-row" span={6}>
+                             <img 
+                            height = '200px'
+                            src="https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/124436263_3433841093507980_3360060161014174120_n.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=rpOb870rIEAAX9hw_t8&_nc_ht=scontent.fsgn8-1.fna&oh=7380b90e743feec96ed1fa0866e8dd27&oe=5FD01DE7"> 
+                            </img>
+                        </Col>
+                        <Col className="gutter-row" span={6}>
+                             <img 
+                            height = '200px'
+                            src="https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/124436263_3433841093507980_3360060161014174120_n.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=rpOb870rIEAAX9hw_t8&_nc_ht=scontent.fsgn8-1.fna&oh=7380b90e743feec96ed1fa0866e8dd27&oe=5FD01DE7"> 
+                            </img>
+                        </Col>
+                        <Col className="gutter-row" span={6}>
+                             <img 
+                            height = '200px'
+                            src="https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/124436263_3433841093507980_3360060161014174120_n.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=rpOb870rIEAAX9hw_t8&_nc_ht=scontent.fsgn8-1.fna&oh=7380b90e743feec96ed1fa0866e8dd27&oe=5FD01DE7"> 
+                            </img>
+                        </Col>
+                    </Row>
+
+
+
+----------------------------
+
+ /*const dataSource = [
+            {
+                key: 'CV1',
+                stt: '1',
+                name: 'Front End Web',
+            },
+            {
+                key: 'CV2',
+                stt: '2',
+                name: 'Back End Web',
+            },
+            {
+                key: 'CV3',
+                stt: '3',
+                name: 'Back End Web',
+            },
+            {
+                key: 'CV4',
+                stt: '4',
+                name: 'Back End Web',
+            },
+            {
+                key: 'CV5',
+                stt: '5',
+                name: 'Back End Web',
+            },
+            {
+                key: 'CV6',
+                stt: '6',
+                name: 'Back End Web',
+            },
+            {
+                key: 'CV7',
+                stt: '7',
+                name: 'Back End Web',
+            },
+            {
+                key: 'CV8',
+                stt: '8',
+                name: 'Back End Web',
+            },
+            {
+                key: 'CV9',
+                stt: '9',
+                name: 'Back End Web',
+            },
+          ];
+          
+          const columns = [
+            {
+                title: 'STT',
+                dataIndex: 'stt',
+                key: 'stt',
+                
+            },
+            {
+                title: 'Name',
+                dataIndex: 'name',
+                key: 'name',
+            },
+          ];*/
+
+
+
+
+
+
+          <Row >
+                        <Table 
+                            pagination = {{pageSize: 4}} 
+                            dataSource={dataSource} 
+                            columns={columns}    
+                            onRowClick = {this.handleSelectCV} 
+                        />
+                    </Row>

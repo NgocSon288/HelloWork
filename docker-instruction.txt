@@ -1,0 +1,6 @@
+STEP 1: Change working directory to aspnet-core and run build backend image command
+    docker build -t abp/be .
+STEP 2: Change working directory to reactjs and run build frontend image command
+    docker build -t abp/fe .
+STEP 3: Change working directory to root folder and start docker compose(develop/release/master)
+    docker-compose -f docker-compose.develop.yml up -d

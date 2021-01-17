@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+.imgCircle {
+    background: url('../../../../../../../assets//images//BlackPink.png');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 50%;
+}

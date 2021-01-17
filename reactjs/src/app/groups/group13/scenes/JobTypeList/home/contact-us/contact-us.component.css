@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+p {
+    margin: 0 auto;
+}

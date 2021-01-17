@@ -1,0 +1,13 @@
+.idea
+
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/reactjs/src/app/groups/group10/dist/router.js
+/aspnet-core/src/SE347.L11_HelloWork.Web.Host/App_Data/Logs/
+/aspnet-core/src/SE347.L11_HelloWork.Web.Host/appsettings.json
+/aspnet-core/src/SE347.L11_HelloWork.Migrator/appsettings.json
+
+ 
